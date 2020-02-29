@@ -1,0 +1,4 @@
+*.log
+.vagrant
+etos512k.img
+src/**/*.tos
