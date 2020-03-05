@@ -10,4 +10,17 @@ Just run:
 vagrant up
 ````
 
-And wait for provision end.
+So, just wait provision ends.
+
+Few tips:
+
+* Edit your code inside `./src` structure, in virtual machine it's
+  mapped as `/vagrant/src`;
+* Use `vagrant ssh` to access the virtual machine and `vagrant help`
+  for more details;
+* To compile, use `m68k-atari-mint-gcc «program».c -o «program».tos`;
+* To start Hatari, run `hatari -c hatari.conf`, this configuration file
+  uses EmuTOS instead TOS;
+* In Hatari `./src` is mapped as `C:` drive;
+* Press «Contro»+«Z» to open EmuCON2;
+* Happy Hacking!
